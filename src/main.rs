@@ -1,8 +1,7 @@
-extern crate netstat;
+extern crate netstat2;
 
-use netstat::*;
+use netstat2::*;
 use sysinfo::{System, Pid};
-use std::cmp::Ordering;
 
 #[derive(Clone)]
 struct SocketEntry {
