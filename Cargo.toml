@@ -1,0 +1,8 @@
+[package]
+name = "netstatw"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+netstat = "0.7.0"
+sysinfo = "0.30"
