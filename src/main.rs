@@ -1,4 +1,6 @@
-use netstat::*;
+extern crate netstat2;
+
+use netstat2::*;
 use std::collections::{HashMap, HashSet};
 use std::env;
 use std::thread;
@@ -6,6 +8,7 @@ use std::time::{Duration, Instant};
 use sysinfo::{Pid, System};
 #[cfg(windows)]
 mod win_net;
+
 
 #[derive(Clone)]
 struct SocketEntry {
