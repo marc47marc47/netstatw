@@ -6,3 +6,8 @@ edition = "2024"
 [dependencies]
 netstat = "0.7.0"
 sysinfo = "0.30"
+windows-sys = { version = "0.52", features = [
+  "Win32_Foundation",
+  "Win32_NetworkManagement_IpHelper",
+  "Win32_Networking_WinSock",
+] }
