@@ -2,6 +2,12 @@
 name = "netstatw"
 version = "0.1.0"
 edition = "2024"
+description = "A netstat-like CLI showing TCP/UDP sockets with owning process info (Windows, Linux, macOS)"
+readme = "README.md"
+repository = "https://github.com/marc47marc47/netstatw"
+license = "MIT"
+keywords = ["netstat", "network", "socket", "cli", "process"]
+categories = ["command-line-utilities", "network-programming"]
 
 [dependencies]
 netstat2 = "0.11.1"
